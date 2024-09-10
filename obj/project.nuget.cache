@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yxmdtE78A8w=",
+  "dgSpecHash": "3v9a1/Ih/s4=",
   "success": true,
-  "projectFilePath": "D:\\Tecsup\\Ciclo 6\\Empresariales Avanzado\\Semana 2\\Laboratorio\\Laboratorio2\\Laboratorio2.csproj",
+  "projectFilePath": "D:\\Tecsup\\Ciclo 6\\Empresariales Avanzado\\Semana 4\\Examen\\.Net AWS API\\.net\\Laboratorio2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fari_\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\fari_\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
