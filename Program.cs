@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigins",
         builder =>
         {
-            builder.WithOrigins("http://localhost:3000") // Cambia esto por tus dominios permitidos
+            builder.WithOrigins("http://localhost:3000", "https://frontnetex1.vercel.app") // Cambia esto por tus dominios permitidos
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
