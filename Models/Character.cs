@@ -6,57 +6,75 @@ namespace YourNamespace.Models
     public class Character
     {
         [JsonPropertyName("id")]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
 
-        [JsonPropertyName("status")]
-        public string Status { get; set; }
+        [JsonPropertyName("alternate_names")]
+        public string[] AlternateNames { get; set; }
 
         [JsonPropertyName("species")]
         public string Species { get; set; }
 
-        [JsonPropertyName("type")]
-        public string Type { get; set; }
-
         [JsonPropertyName("gender")]
         public string Gender { get; set; }
 
-        [JsonPropertyName("origin")]
-        public Origin Origin { get; set; }
+        [JsonPropertyName("house")]
+        public string House { get; set; }
 
-        [JsonPropertyName("location")]
-        public Location Location { get; set; }
+        [JsonPropertyName("dateOfBirth")]
+        public string DateOfBirth { get; set; }
+
+        [JsonPropertyName("yearOfBirth")]
+        public int? YearOfBirth { get; set; }
+
+        [JsonPropertyName("wizard")]
+        public bool Wizard { get; set; }
+
+        [JsonPropertyName("ancestry")]
+        public string Ancestry { get; set; }
+
+        [JsonPropertyName("eyeColour")]
+        public string EyeColour { get; set; }
+
+        [JsonPropertyName("hairColour")]
+        public string HairColour { get; set; }
+
+        [JsonPropertyName("wand")]
+        public Wand Wand { get; set; }
+
+        [JsonPropertyName("patronus")]
+        public string Patronus { get; set; }
+
+        [JsonPropertyName("hogwartsStudent")]
+        public bool HogwartsStudent { get; set; }
+
+        [JsonPropertyName("hogwartsStaff")]
+        public bool HogwartsStaff { get; set; }
+
+        [JsonPropertyName("actor")]
+        public string Actor { get; set; }
+
+        [JsonPropertyName("alternate_actors")]
+        public string[] AlternateActors { get; set; }
+
+        [JsonPropertyName("alive")]
+        public bool Alive { get; set; }
 
         [JsonPropertyName("image")]
         public string Image { get; set; }
-
-        [JsonPropertyName("episode")]
-        public string[] Episode { get; set; }
-
-        [JsonPropertyName("url")]
-        public string Url { get; set; }
-
-        [JsonPropertyName("created")]
-        public DateTime Created { get; set; }
     }
 
-    public class Origin
+    public class Wand
     {
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
+        [JsonPropertyName("wood")]
+        public string Wood { get; set; }
 
-        [JsonPropertyName("url")]
-        public string Url { get; set; }
-    }
+        [JsonPropertyName("core")]
+        public string Core { get; set; }
 
-    public class Location
-    {
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
-
-        [JsonPropertyName("url")]
-        public string Url { get; set; }
+        [JsonPropertyName("length")]
+        public float? Length { get; set; }
     }
 }

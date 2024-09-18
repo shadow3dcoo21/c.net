@@ -16,44 +16,29 @@ namespace YourNamespace.Controllers
             _httpClient = httpClient;
         }
 
-        [HttpGet("{startId}/{endId}")]
-        public async Task<IActionResult> GetCharacters(int startId, int endId)
+        [HttpGet]
+        public async Task<IActionResult> GetCharacters()
         {
-            var tasks = new List<Task<Character>>();
-            string baseUrl = "https://rickandmortyapi.com/api/character/";
-
+            string url = "https://hp-api.onrender.com/api/characters";
             var options = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             };
 
-            for (int i = startId; i <= endId; i++)
-            {
-                string url = baseUrl + i;
-
-                tasks.Add(GetCharacterAsync(url, options));
-            }
-
-            var characters = await Task.WhenAll(tasks);
-
-            return Ok(characters.Where(c => c != null));
-        }
-
-        private async Task<Character> GetCharacterAsync(string url, JsonSerializerOptions options)
-        {
             try
             {
                 var response = await _httpClient.GetAsync(url);
                 if (response.IsSuccessStatusCode)
                 {
                     var jsonResponse = await response.Content.ReadAsStringAsync();
-                    return JsonSerializer.Deserialize<Character>(jsonResponse, options);
+                    var characters = JsonSerializer.Deserialize<List<Character>>(jsonResponse, options);
+                    return Ok(characters);
                 }
-                return null;
+                return StatusCode((int)response.StatusCode, "Error fetching characters.");
             }
             catch
             {
-                return null;
+                return StatusCode(500, "An error occurred while fetching the characters.");
             }
         }
     }

@@ -66,3 +66,37 @@ D:\Tecsup\Ciclo 6\Empresariales Avanzado\Semana 4\Examen\.Net AWS API\.net\obj\D
 D:\Tecsup\Ciclo 6\Empresariales Avanzado\Semana 4\Examen\.Net AWS API\.net\obj\Debug\net8.0\Laboratorio2.pdb
 D:\Tecsup\Ciclo 6\Empresariales Avanzado\Semana 4\Examen\.Net AWS API\.net\obj\Debug\net8.0\Laboratorio2.genruntimeconfig.cache
 D:\Tecsup\Ciclo 6\Empresariales Avanzado\Semana 4\Examen\.Net AWS API\.net\obj\Debug\net8.0\ref\Laboratorio2.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\appsettings.json
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Laboratorio2.exe
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Laboratorio2.deps.json
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Laboratorio2.runtimeconfig.json
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Laboratorio2.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Laboratorio2.pdb
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.csproj.AssemblyReference.cache
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.AssemblyInfoInputs.cache
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.AssemblyInfo.cs
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.csproj.CoreCompileInputs.cache
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.sourcelink.json
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\staticwebassets\msbuild.Laboratorio2.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\staticwebassets\msbuild.build.Laboratorio2.props
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Laboratorio2.props
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Laboratorio2.props
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\scopedcss\bundle\Laboratorio2.styles.css
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laborato.314B9490.Up2Date
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\refint\Laboratorio2.dll
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.pdb
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\Laboratorio2.genruntimeconfig.cache
+C:\Users\fari_\OneDrive\Escritorio\.net\obj\Debug\net8.0\ref\Laboratorio2.dll

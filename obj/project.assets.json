@@ -1031,11 +1031,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tecsup\\Ciclo 6\\Empresariales Avanzado\\Semana 4\\Examen\\.Net AWS API\\.net\\Laboratorio2.csproj",
+      "projectUniqueName": "C:\\Users\\fari_\\OneDrive\\Escritorio\\.net\\Laboratorio2.csproj",
       "projectName": "Laboratorio2",
-      "projectPath": "D:\\Tecsup\\Ciclo 6\\Empresariales Avanzado\\Semana 4\\Examen\\.Net AWS API\\.net\\Laboratorio2.csproj",
+      "projectPath": "C:\\Users\\fari_\\OneDrive\\Escritorio\\.net\\Laboratorio2.csproj",
       "packagesPath": "C:\\Users\\fari_\\.nuget\\packages\\",
-      "outputPath": "D:\\Tecsup\\Ciclo 6\\Empresariales Avanzado\\Semana 4\\Examen\\.Net AWS API\\.net\\obj\\",
+      "outputPath": "C:\\Users\\fari_\\OneDrive\\Escritorio\\.net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fari_\\AppData\\Roaming\\NuGet\\NuGet.Config",
