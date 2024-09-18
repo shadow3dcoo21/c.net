@@ -12,29 +12,15 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigins",
         builder =>
         {
-            builder.WithOrigins(
-                    "http://localhost:3000", 
-                    "https://localhost:3000",
-                    "http://frontnetex1.vercel.app",
-                    "https://frontnetex1.vercel.app")
+            builder.WithOrigins("http://localhost:3000") // Cambia esto por tus dominios permitidos
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
 });
 
-// Configurar Kestrel para HTTP y HTTPS
-builder.WebHost.ConfigureKestrel(serverOptions =>
-{
-    serverOptions.ListenAnyIP(5295); // Puerto HTTP
-    serverOptions.ListenAnyIP(44381, listenOptions =>
-    {
-        listenOptions.UseHttps(); // Puerto HTTPS
-    });
-});
-
 var app = builder.Build();
 
-// Configurar CORS
+// Configurar CORS si es necesario
 app.UseCors("AllowSpecificOrigins");
 
 app.UseHttpsRedirection();
